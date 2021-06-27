@@ -15,7 +15,7 @@ campaign succcess.
 The data obtained from Kickstarter was loaded into an Excel spreadsheet (Kickstarter tab).  The information on this tab was sorted and further clarfied
 by separating the categories into both parent and subcategory, as well as converting the Unix timestamp into a readable format.  
 
-[Kickstarter_Challenge.zip](https://github.com/purvishjd/kickstarter-analysis/blob/main/Kickstarter_Challenge.zip)
+[Kickstarter_Challenge.zip](https://github.com/purvisjd/kickstarter-analysis/blob/main/Kickstarter_Challenge.zip)
 
 ### Analysis of Outcomes Based on Launch Date
 To isolate the information that would be most pertinent to Louise's project, 2 additional tabs were created to make isolating the desired data easier. On 
