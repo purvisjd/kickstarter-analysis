@@ -14,3 +14,23 @@ campaign succcess.
 
 The data obtained from Kickstarter was loaded into an Excel spreadsheet (Kickstarter tab).  The information on this tab was sorted and further clarfied
 by separating the categories into both parent and subcategory, as well as converting the Unix timestamp into a readable format.  
+
+[Kickstarter_Challenge.zip](https://github.com/purvishjd/kickstarter-analysis/blob/main/Kickstarter_Challenge.zip)
+
+### Analysis of Outcomes Based on Launch Date
+To isolate the information that would be most pertinent to Louise's project, 2 additional tabs were created to make isolating the desired data easier. On 
+the Theater Outcomes by Launch Date tab, a pivot table was created that would demonstrate the number of successful, failed, and canceled theater Kickstarter 
+campaigns based on the month in which they were launched.  A filter is also included to allow further evaluation based on the specific year rather than
+the entire range provided in the raw data set.  A line chart was also created to provide a visual representation of the success, failure, and cancellation
+rates based on the launch date.
+
+[Theater_Outcomes_vs_Launch.png](https://github.com/purvisjd/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
+
+### Analysis of Outcomes Based on Goals
+In addition to the analysis based on launch date, an additional table was created on the Outcomes Based on Goals tab in which the data was further focused
+on Plays specifically as a subcategory.  Goals were broken into defined ranges and the information was categorized based on the number of successful,
+failed, and cancelled within each range.  This data was then further calculated to show percentages as to the success, failure, and cancellation rates.
+To provide further visual representation of this breakdown of information, another line chart was created to demonstrate the percentage of 
+successful, failed, and cancelled based on the goal set for the campaign.
+
+[Outcomes_Vs_Goals.png](https://github.com/purvisjd/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
