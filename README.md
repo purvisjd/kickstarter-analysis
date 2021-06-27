@@ -34,3 +34,32 @@ To provide further visual representation of this breakdown of information, anoth
 successful, failed, and cancelled based on the goal set for the campaign.
 
 [Outcomes_Vs_Goals.png](https://github.com/purvisjd/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
+
+### Challenges and Difficulties Encountered
+Only minor challenges were encountered with regards to analyzing this specific dataset.  Certain columns of information had to be re-formatted into 
+something that would be more easily readable (Unix datestamp specifically).  Additional calculations needed to be added to the dataset in order to 
+appropriately demonstrate the requested data.  If this information is not calculated properly, it could significantly skew results and ultimate analysis.
+
+## Results
+Two specific conclusions can be drawn from this data as it currently stands.  When viewing the Outcomes Based on Launch Date, there appears to be a 
+trend of a higher potential for success for those campaigns that are launched during the second quarter.  This correlation would indicate an increased
+likelihood for future campaigns that are launched during that timeframe.  Also noted was that the rate of cancellation does not appear to be significantly 
+impacted by the launch date with the exception of the months of April and July.  Further analysis would be required in order to identify specific reasoning
+for this observed result.
+
+The Outcomes Based on Goals evaluation provides additional useful information regarding the potential for success.  Significantly higher success rates 
+were observed with 2 specific categories of goal ranges; those that were less than $5000 and those between $25,000 and $35,000 appear to have significantly
+higher success rates with Kickstarter campaigns.
+
+It must be noted that there are limitations to this dataset.  It is reasonable to conclude that this data does not represent all Kickstarter campaigns 
+that have ever been created and we are, therefore, looking at a sample dataset.  Whenever you are looking at a sample, you have to take into consideration
+the inherent limitations that this represents and the possibility of not having data that may have a significant impact on outcome and analsysis. 
+Further, in order to be able to draw more accurate comparisons to the requested data, further analysis would need to be done on Plays as a specific subset
+as the type of theater can have a significant impact on outcomes.  An additional pivot table showing a comparison of plays versus musicals would have 
+been able to provide significant assistance with determining what type of theater has the highest demonstrated potential for Kickstarter success
+with a bar graph providing a visual representation of that comparison.  An additional line graph could also be created to demonstrate trends
+over years of time to see if certain subcategories have been more successful in the past and which ones may be trending more successful now.  Also, 
+since this is an analysis of a category typically considered a "luxury", it would be prudent to also include an analysis of socio-economic factors of the 
+given timeframes that may have had a significant impact on outcome.
+
+
